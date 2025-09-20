@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailored by Misan | Premium Tailoring Services</title>
+  <meta name="description" content="Premium tailoring and fashion design services in Lagos, Nigeria. Exquisite custom-made clothing, bridal wear, and alterations." />
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">TAILORED <span>By Misan</span></div>
+      <nav>
+        <div class="mobile-menu-btn"><i class="fas fa-bars"></i></div>
+        <ul id="menu">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <h1>Premium Tailoring & Fashion Design</h1>
+      <p>Exquisite custom-made clothing that reflects your unique style and personality</p>
+      <a href="#contact" class="btn">Book a Consultation</a>
+    </div>
+  </section>
+
+  <!-- Services, Portfolio, About, Testimonials (unchanged) -->
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact Us</h2>
+        <p>Get in touch to book a consultation or inquire about our services</p>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <div class="contact-detail"><i class="fas fa-map-marker-alt contact-icon"></i><p>123 Fashion Street, Victoria Island, Lagos</p></div>
+          <div class="contact-detail"><i class="fas fa-phone contact-icon"></i><p>+234 812 345 6789</p></div>
+          <div class="contact-detail"><i class="fas fa-envelope contact-icon"></i><p>info@tailoredbymisan.com</p></div>
+          <div class="contact-detail"><i class="fas fa-clock contact-icon"></i><p>Mon–Fri: 9am–6pm | Sat: 10am–4pm</p></div>
+        </div>
+        <div class="contact-form">
+          <h3>Send us a Message</h3>
+          <form id="contactForm" action="https://formspree.io/f/yourFormID" method="POST">
+            <div class="form-group"><label for="name">Full Name</label><input type="text" id="name" name="name" required /></div>
+            <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email" required /></div>
+            <div class="form-group"><label for="phone">Phone Number</label><input type="tel" id="phone" name="phone" /></div>
+            <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+            <button type="submit" class="btn">Send Message</button>
+            <p id="formMessage" class="form-message"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-container">
+      <!-- Footer content unchanged -->
+      <div class="footer-newsletter">
+        <h4>Newsletter</h4>
+        <form class="newsletter-form" action="https://yourmailchimpurl" method="POST" target="_blank">
+          <input type="email" placeholder="Your Email Address" required />
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2025 Tailored by Misan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
